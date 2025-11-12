@@ -1,4 +1,6 @@
 public class asignment32c {
+    //Matthew Dempsey wrote this
+    //This prgram is for assignment 3.2
     public static void main(String[] args) {
      game game1=new game("Minecraft","Computer game");
      Boardgame game2=new Boardgame ("Game of life");

@@ -1,4 +1,6 @@
 public class CardGame extends game {
+     //Matthew Dempsey wrote this
+     //This prgram is for assignment 3.2
     int AmountOfCards=6;
     public CardGame(String title) {
         super(title, "Board game");

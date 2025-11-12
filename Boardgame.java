@@ -1,4 +1,6 @@
 public class Boardgame extends game {
+     //Matthew Dempsey wrote this
+     //This prgram is for assignment 3.2
     public Boardgame(String title) {
         super(title, "Board game");
 }

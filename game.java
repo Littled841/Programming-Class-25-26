@@ -1,6 +1,6 @@
 //Matthew Dempsey wrote this
 //This program is for 2.4c assignment
-public class game {
+public class game implements Comparable<game> {
 String title;
 int HighScore;
 String HowToScorePoints;
@@ -23,5 +23,10 @@ String HighScoreHolder;
         public void PrintHighScore(){
             System.out.println("The high score is "+HighScore);
             System.out.println("The curent high score holder is "+HighScoreHolder);
+        }
+        @Override
+        public int compareTo(game o) {
+            // TODO Auto-generated method stub
+           return title.compareTo(o.title);
         }
 }
