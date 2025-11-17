@@ -1,5 +1,5 @@
-//
-//
+//Matthew Dempsey wrote this
+//This is for asignment 3.3
 import java.util.ArrayList;
 import java.util.Collections;
 
